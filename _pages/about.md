@@ -1,5 +1,5 @@
 ---
-layout: About
+layout: about
 title: About
 permalink: /
 subtitle: <a href='#'>The Univeristy of Melbourne</a>. 792 Elizabeth Street, VIC 3000, Australia. himal2007@duck.com. Al evolving biologist.

@@ -1,36 +1,36 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Himal Shrestha",
+    "label": "Bioinformatician",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "himal2007@duck.com",
+    "phone": "",
+    "url": "https://himal2007.github.io/",
+    "summary": "An evolving biologist",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "792 Elizabeth Street",
+      "postalCode": "VIC 3000",
+      "city": "Melbourne",
+      "countryCode": "AUS",
+      "region": "Victoria"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "himal2007",
+        "url": "https://twitter.com/himal2007"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
+      "name": "The Peter Doherty Institue of Infection and Immunity, The University of Melbourne",
+      "position": "Bioinformatician",
       "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
+      "startDate": "2023-10-15",
+      "endDate": "",
       "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "highlights": ["pipeline-validation"]
     }
   ],
   "volunteer": [
@@ -113,11 +113,11 @@
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Synthesizing environmental, epidemiological and vector and parasite genetic data to assist decision making for disease elimination",
+      "publisher": "Molecular Ecology",
+      "releaseDate": "2024-04-29",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/mec.17357",
+      "summary": "This article presents a framework for mapping and analyzing the transmission of vector-borne diseases, specifically onchocerciasis, by integrating environmental, epidemiological, and genetic data of vectors and parasites1. The study focuses on the ecological transition zone in Ghana, highlighting the importance of coordinated disease intervention efforts over large geographic areas to eliminate transmission of onchocerciasis."
     },
     {
       "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
@@ -151,7 +151,7 @@
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Nepali",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -163,16 +163,23 @@
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Bioinformatics",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+        "Microbial bioinformatics",
+        "Parasite genomics",
+        "Pipeline development",
+        "Pipeline validation",
+       ]
+    },
+    {
+      "name": "Epidemiology",
+      "icon": "fa-solid fa-tag",
+      "keywords":[
+        "Geospatial modelling",
+        "Infectious disease modelling",
+        "Public health genomics",
+        "Landscape genomics",
     }
   ],
   "references": [

@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>The Univeristy of Melbourne</a>. 792 Elizabeth Street, VIC 3000, Australia. himal2007@duck.com. Al evolving biologist.
+subtitle: <a href='https://biomedicalsciences.unimelb.edu.au/departments/microbiology-Immunology/research/services/microbiological-diagnostic-unit-public-health-laboratory'>The Univeristy of Melbourne</a>. Bioinformatician in Australia from Nepal. 🇳🇵 🌏
 
 profile:
   align: right
@@ -13,7 +13,7 @@ profile:
     <p>792 Elizabeth Street</p>
     <p>Melbourne, VIC 3000</p>
 
-news: false # includes a list of news items
+news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---

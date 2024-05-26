@@ -169,7 +169,7 @@
         "Microbial bioinformatics",
         "Parasite genomics",
         "Pipeline development",
-        "Pipeline validation",
+        "Pipeline validation"
        ]
     },
     {
@@ -179,7 +179,8 @@
         "Geospatial modelling",
         "Infectious disease modelling",
         "Public health genomics",
-        "Landscape genomics",
+        "Landscape genomics"
+      ]
     }
   ],
   "references": [

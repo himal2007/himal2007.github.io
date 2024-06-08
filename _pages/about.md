@@ -2,15 +2,15 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://biomedicalsciences.unimelb.edu.au/departments/microbiology-Immunology/research/services/microbiological-diagnostic-unit-public-health-laboratory'>The Univeristy of Melbourne</a>. Bioinformatician in Australia from Nepal. 🇳🇵🌏
+subtitle: Bioinformatician in Australia from Nepal. 🇳🇵🌏 Currently at <a href='https://biomedicalsciences.unimelb.edu.au/departments/microbiology-Immunology/research/services/microbiological-diagnostic-unit-public-health-laboratory'>The Univeristy of Melbourne</a>.
 
 profile:
   align: right
   image: himal_ppic.png
   image_circular: false # crops the image to make it circular
   more_info: >
+    <p>Bioinformatician</p>
     <p>Microbiological Diagnostic Unit Public Health Laboratory (MDU-PHL)</p>
-    <p>792 Elizabeth Street</p>
     <p>Melbourne, VIC 3000</p>
 
 news: true # includes a list of news items
@@ -18,8 +18,28 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `himal_ppic.png` and put it in the `img/` folder.
+🔬 **Mission:** Defeating Infectious Diseases with Data
+🔍 **Role:** Bioinformatician at the Microbiological Diagnostic Unit Public Health Laboratory (MDU-PHL)
+🌍 **Focus:** Pathogen Genomics in Public Health
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+---
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+**🔎 I unmask microbial villains.** At the [MDU-PHL](https://biomedicalsciences.unimelb.edu.au/departments/microbiology-Immunology/research/services/microbiological-diagnostic-unit-public-health-laboratory), I develop and validate bioinformatics pipelines that decode the genomes of infectious agents, turning complex data into actionable insights. My work is like solving intricate puzzles, where each piece of data contributes to a clearer picture of disease dynamics and helps in the fight against infectious diseases.
+
+**🎓 My journey as a bioinformatician began at La Trobe University** under the guidance of [Prof Warwick Grant](https://scholars.latrobe.edu.au/wgrant), Dr. Shannon Hedtke, and Dr. Rebecca Chisholm. My PhD focused on the spatial modelling of river blindness, a neglected tropical disease, where I used computational tools to map out its transmission pathways and devise strategies to curb its spread.
+
+**🔬 My expertise lies at the intersection of science and technology,** blending genomics, environmental data, and epidemiology to tackle complex health challenges. I’m particularly passionate about exploring how antimicrobial resistance and climate change influence disease patterns.
+
+---
+
+💻 **Tools of the Trade:**
+- **Programming Languages:** R, Python, MATLAB, Bash, Julia, JavaScript, C, C++
+- **Skills:** Bioinformatic analysis, Population genetics, Landscape genetics, Spatial modelling, Statistical analysis
+
+---
+
+**🌱 Curious Mind:** When I'm not delving into the molecular mysteries of pathogens, you might find me lost in the pages of a book. Currently, I'm navigating the historical adventures in "Measuring the World" by Daniel Kehlmann, a delightful escape that keeps me balanced and inspired.
+
+---
+
+**🌐 Connect with Me:** If you share my passion for bioinformatics or have a project that could use a touch of computational wizardry, let's connect and explore the endless possibilities of data-driven discovery.

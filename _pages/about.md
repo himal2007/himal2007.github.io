@@ -20,9 +20,8 @@ social: true # includes social icons at the bottom of the page
 
 🔬 **Mission:** Defeating Infectious Diseases with Data 
 🔍 **Role:** Bioinformatician at the Microbiological Diagnostic Unit Public Health Laboratory (MDU-PHL) 
-🌍 **Focus:** Pathogen Genomics in Public Health 
+🌍 **Focus:** Pathogen Genomics in Public Health  
 
->>>>>>-----<<<<<<
 
 **🔎 I unmask microbial villains.** At the [MDU-PHL](https://biomedicalsciences.unimelb.edu.au/departments/microbiology-Immunology/research/services/microbiological-diagnostic-unit-public-health-laboratory), I develop and validate bioinformatics pipelines that decode the genomes of infectious agents, turning complex data into actionable insights. My work is like solving intricate puzzles, where each piece of data contributes to a clearer picture of disease dynamics and helps in the fight against infectious diseases.
 

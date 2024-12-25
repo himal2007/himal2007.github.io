@@ -3,8 +3,9 @@
     A[Start] --&gt; B{Is it working?}
     B --&gt;|Yes| C[Continue]
     B --&gt;|No| D[Fix it]
-    D --&gt; B
-</span></code></pre></div></div> <p>This code snippet generates a flowchart below with decision points and actions. Make sure to add to add <code class="language-plaintext highlighter-rouge">mermaid</code> tag in the code block to enable Mermaid rendering. Also, you need to enable Mermaid rendering in the YAML front matter of your markdown file with <code class="language-plaintext highlighter-rouge">mermaid: enabled: true</code>.</p> <pre><code class="language-mermaid">graph TD
+    D --&gt; B</span>
+<span class="p">```</span>
+</code></pre></div></div> <p>This code snippet generates a flowchart below with decision points and actions. Make sure to add to add <code class="language-plaintext highlighter-rouge">mermaid</code> tag in the code block to enable Mermaid rendering. Also, you need to enable Mermaid rendering in the YAML front matter of your markdown file with <code class="language-plaintext highlighter-rouge">mermaid: enabled: true</code>.</p> <pre><code class="language-mermaid">graph TD
     A[Start] --&gt; B{Is it working?}
     B --&gt;|Yes| C[Continue]
     B --&gt;|No| D[Fix it]

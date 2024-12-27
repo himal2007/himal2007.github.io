@@ -42,4 +42,6 @@ social: true # includes social icons at the bottom of the page
 
 ---
 
-**🌐 Connect with Me:** If you share my passion for bioinformatics or have a project that we could colaborate on, let's connect.
+**🌐 Connect with Me:** If you share my passion for bioinformatics or have a project that we could colaborate on, let's connect via any of the socal handles below.
+
+---

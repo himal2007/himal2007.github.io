@@ -120,7 +120,7 @@ google_analytics: G-TFED2ZNFCK # your Google Analytics measurement ID (format: G
 cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: pAWiQy3GcLasYh5xN1AqW0Dc4fzeFvjZcw7TMuMk3UE # your google-site-verification ID (Google Search Console)
+google_site_verification: -jMwbFpy0y8qmebpi3Sda3obtY6Qpd0Cv0W0InmGz70 # your google-site-verification ID (Google Search Console)
 bing_site_verification: 110A0D542F39E3955528FDF20ACA1E4C # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------

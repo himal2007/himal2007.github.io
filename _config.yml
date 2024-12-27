@@ -120,7 +120,7 @@ google_analytics: G-TFED2ZNFCK # your Google Analytics measurement ID (format: G
 cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: # your google-site-verification ID (Google Search Console)
+google_site_verification: pAWiQy3GcLasYh5xN1AqW0Dc4fzeFvjZcw7TMuMk3UE # your google-site-verification ID (Google Search Console)
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
@@ -128,7 +128,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Binfie notes # blog_name will be displayed in your blog page
-blog_description: A record of some of my learning, thoughts, and experiences that I find interesting. # blog_description will be displayed in your blog page
+blog_description: Random records on some of my learnings and and experiences. # blog_description will be displayed in your blog page
 permalink: /blog/:year/:title/
 
 # Pagination

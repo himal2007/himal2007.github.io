@@ -18,11 +18,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-🔬 **Mission:** Defeating Infectious Diseases with Data 
-🔍 **Role:** Bioinformatician at the Microbiological Diagnostic Unit Public Health Laboratory (MDU-PHL) 
-🌍 **Focus:** Pathogen Genomics in Public Health    
-
-
+🔬 **Mission:** Defeating Infectious Diseases with Data
+🔍 **Role:** Bioinformatician at the Microbiological Diagnostic Unit Public Health Laboratory (MDU-PHL)
+🌍 **Focus:** Pathogen Genomics in Public Health
 
 **🔎 I unmask microbial villains.** At the [MDU-PHL](https://biomedicalsciences.unimelb.edu.au/departments/microbiology-Immunology/research/services/microbiological-diagnostic-unit-public-health-laboratory), I develop and validate bioinformatics pipelines that decode the genomes of infectious agents, turning complex data into actionable insights. My work is like solving intricate puzzles, where each piece of data contributes to a clearer picture of disease dynamics and helps in the fight against infectious diseases.
 
@@ -33,12 +31,13 @@ social: true # includes social icons at the bottom of the page
 ---
 
 💻 **Tools of the Trade:**
+
 - **Programming Languages:** Python, R, bash, nextflow, snakemake, MATLAB, Julia, JavaScript, C, C++
 - **Skills:** Bioinformatic analysis, Population genetics, Landscape genetics, Spatial modelling, Statistical analysis
 
 ---
 
-**🌱 Curious Mind:** When I'm not delving into the molecular mysteries of pathogens, you might find me lost in the pages of a book. Currently, I'm currently reading *Mukam Ranamaidan* by Mohan Mainali, a delightful escape that keeps me balanced and inspired.
+**🌱 Curious Mind:** When I'm not delving into the molecular mysteries of pathogens, you might find me lost in the pages of a book. Currently, I'm currently reading _Mukam Ranamaidan_ by Mohan Mainali, a delightful escape that keeps me balanced and inspired.
 
 ---
 

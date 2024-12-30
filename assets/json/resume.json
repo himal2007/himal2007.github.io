@@ -165,22 +165,12 @@
     {
       "name": "Bioinformatics",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Microbial bioinformatics",
-        "Parasite genomics",
-        "Pipeline development",
-        "Pipeline validation"
-       ]
+      "keywords": ["Microbial bioinformatics", "Parasite genomics", "Pipeline development", "Pipeline validation"]
     },
     {
       "name": "Epidemiology",
       "icon": "fa-solid fa-tag",
-      "keywords":[
-        "Geospatial modelling",
-        "Infectious disease modelling",
-        "Public health genomics",
-        "Landscape genomics"
-      ]
+      "keywords": ["Geospatial modelling", "Infectious disease modelling", "Public health genomics", "Landscape genomics"]
     }
   ],
   "references": [

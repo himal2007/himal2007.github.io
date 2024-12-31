@@ -40,7 +40,3 @@ social: true # includes social icons at the bottom of the page
 **🌱 Curious Mind:** When I'm not delving into the molecular mysteries of pathogens, you might find me lost in the pages of a book. Currently, I'm currently reading _Mukam Ranamaidan_ by Mohan Mainali, a delightful escape that keeps me balanced and inspired.
 
 ---
-
-**🌐 Connect with Me:** If you share my passion for bioinformatics or have a project that we could colaborate on, let's connect via any of the socal handles below.
-
----

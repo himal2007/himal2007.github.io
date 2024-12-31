@@ -5,7 +5,7 @@ title: CV
 nav: true
 nav_order: 5
 cv_pdf: Himal_CV.pdf
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+description: A pdf version of my cv can be obtained in the PDF icon.
 toc:
   sidebar: left
 ---

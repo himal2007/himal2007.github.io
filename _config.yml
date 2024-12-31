@@ -7,7 +7,7 @@ first_name: Himal
 middle_name:
 last_name: Shrestha
 contact_note: >
-  Please feel free to reach out to me via email or any of the social links.
+  🌐 If you share my passion for bioinformatics or have a project that we could colaborate on, let's connect via email or any of the socal handles.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -124,11 +124,11 @@ disqus_shortname: al-folio # put your disqus shortname
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
   - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+    rss_url: # https://medium.com/@al-folio/feed
   - name: Google Blog
     posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+      - url: # https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+        published_date: # 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter

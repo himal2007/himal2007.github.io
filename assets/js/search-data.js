@@ -25,14 +25,14 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "Repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          description: "Check out some of my GitHub projects and stats! 💻✨ Feel free to browse, star 🌟, fork 🍴, and contribute! 🚀Happy coding! 😃👩‍💻👨‍💻",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "A pdf version of my cv can be obtained in the PDF icon.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -170,7 +170,7 @@ ninja.data = [{
         title: 'ORCID',
         section: 'Socials',
         handler: () => {
-          window.open("https://orcid.org/0000-0002-4470-4830", "_blank");
+          window.open("https://orcid.org/", "_blank");
         },
       },{
         id: 'social-rss',

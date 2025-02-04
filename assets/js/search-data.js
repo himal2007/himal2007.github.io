@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-checking-your-gpu-via-wsl2",
+        },{id: "post-testing-changes-in-your-python-packages-with-github-actions-workflow",
+      
+        title: "Testing changes in your Python Packages with GitHub Actions Workflow",
+      
+      description: "Learning how to design a GitHub Actions workflow to test for changes in a Python package.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/github-actions-workflow/";
+        
+      },
+    },{id: "post-checking-your-gpu-via-wsl2",
       
         title: "Checking your GPU via WSL2",
       

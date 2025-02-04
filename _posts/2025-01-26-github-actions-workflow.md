@@ -161,7 +161,7 @@ These steps:
 <details>
   <summary><strong>More about actions</strong></summary>
 
-  GitHub Actions are custom applications that can be used to automate tasks in your software development lifecycle. You can create and publish your own actions, or use actions shared by the community from the [GitHub Marketplace](https://github.com/marketplace?type=actions).
+  GitHub Actions are custom applications that can be used to automate tasks in your software development lifecycle. You can create and publish your own actions, or use actions shared by the community from the <a href="https://github.com/marketplace?type=actions">GitHub Marketplace</a>.
 
   <details>
     <summary><strong>Creating and Publishing Actions</strong></summary>
@@ -172,11 +172,10 @@ These steps:
     <summary><strong>Using Actions from the Marketplace</strong></summary>
     To use an action from the GitHub Marketplace, you can reference it in your workflow file using the <code>uses</code> keyword. For example: 
 
-    ```yaml
-    steps:
-      - name: Use a Marketplace action
-        uses: actions/checkout@v4
-    ```
+  <pre><code class="language-yaml">steps:
+     - name: Use a Marketplace action
+       uses: actions/checkout@v4</code></pre>
+
 
   </details>
 
@@ -184,11 +183,9 @@ These steps:
     <summary><strong>Using Actions from Other Repositories</strong></summary>
     You can also use actions from other repositories by specifying the repository name and version. For example:
 
-    ```yaml
-    steps:
-      - name: Use an action from another repository
-        uses: owner/repo@v1
-    ```
+  <pre><code class="language-yaml">steps:
+    - name: Use an action from another repository
+      uses: owner/repo@v1</code></pre>
 
   </details>
 
@@ -223,7 +220,7 @@ In our example, we use two-phase testing strategy, one with the current release 
 
 Sometimes we have to run `source $CONDA/bin/activate hicap-env` to activate the environment as it bypasses the need for conda initialisation in the shell session. The `shell` attribute is used to specify the shell to run the commands in. The `-e` flag causes the shell to exit immediately if any command exits with a non-zero status and `-l` flag ensures that the shell is a login shell. `{0}` is a placeholder for the scripts and commands to be run.
 
-2. **Phase 2: Test New Changes**
+2. **Phase 2: Test New Changes**  
 ```yaml
   - name: Install editable hicap package
     shell: bash -el {0}

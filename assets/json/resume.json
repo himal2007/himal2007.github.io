@@ -6,7 +6,7 @@
     "email": "himal2007@duck.com",
     "phone": "",
     "url": "https://himal2007.github.io/",
-    "summary": "An evolving biologist",
+    "summary": "A PhD graduate in Bioinformatics with expertise in computational and mathematical modelling. I am passionate about using data to predict, prevent, and eliminate infectious diseases. Currently, I work as a bioinformatician in the MDU-PHL, University of Melbourne. My research at La Trobe University involved studying the transmission of parasitic disease, called river blindness, by integrating genomic, environmental, and epidemiological data with a variety of modelling and analytical approaches.",
     "location": {
       "address": "792 Elizabeth Street",
       "postalCode": "VIC 3000",
@@ -22,49 +22,90 @@
       }
     ]
   },
-  "work": [
+  "education": [
     {
-      "name": "The Peter Doherty Institue of Infection and Immunity, The University of Melbourne",
+      "institution": "La Trobe University",
+      "location": "Melbourne, Australia",
+      "url": "https://doi.org/10.26181/24470644.v1",
+      "area": "New tools for onchocerciasis elimination in Africa: the role of spatially explicit models in informing decisions.",
+      "studyType": "PhD in Bioinformatics",
+      "startDate": "2019-08-26",
+      "endDate": "2023-03-01",
+      "score": 10,
+      "courses": ["Data Driven Mathematical Modelling", "Helminth Bioinformatics", "Hierarchical Modelling of Species Communities", "Deep Learning", "Dynamic processes spreading on Networks", "Random Fields: Mathematical theory and application in spatial statistics"]
+    },
+    {
+      "institution": "La Trobe University",
+      "location": "Melbourne, Australia",
+      "url": "https://www.latrobe.edu.au/courses/master-of-biotechnology-and-bioinformatics#/overview?location=BU&studentType=int&year=2025",
+      "area": "Thesis: Analysis of ivermectin action on adult female <i>Onchocerca volvulus</i> from embryogram data: evidence for reproductive periodicity and the basis for the embryostatic phenotype.",
+      "studyType": "Master of Biotechnology and Bioinformatics",
+      "startDate": "2017-07-26",
+      "endDate": "2019-03-01",
+      "score": 10,
+      "courses": ["Bioinformatics", "Proteomics and Genomics", "Scientific Communication Skills", "Biobusiness management", "Practical Biotechnology"]
+    },
+    {
+      "institution": "Kathmandu University",
+      "location": "Dhulikhel, Nepal",
+      "url": "https://www.ku.edu.np/",
+      "area": "Thesis: Assessment of C-Reactive Protein/Albumin ratio for predicting outcome in critically ill patients with various underlying diseases.",
+      "studyType": "Bachelor of Science in Human Biology",
+      "startDate": "2012-08-26",
+      "endDate": "2016-05-01",
+      "score": 10,
+      "courses": ["Human Anatomy", "Human Physiology", "Biochemistry", "Microbiology", "Immunology", "Molecular Biology"]
+    }
+  ],
+    "work": [
+    {
+      "name": "MDU-PHL, The University of Melbourne",
       "position": "Bioinformatician",
-      "url": "https://example.com",
+      "url": "https://biomedicalsciences.unimelb.edu.au/departments/microbiology-Immunology/research/services/microbiological-diagnostic-unit-public-health-laboratory",
       "startDate": "2023-10-15",
       "endDate": "",
       "summary": "Developing and maintaining bioinformatics pipelines for the analysis of genomic data from bacterial pathogens",
       "highlights": ["pipeline-validation and development", "microbial bioinformatics"]
+    },
+    {
+      "name": "Nematode and Vector Genomics Lab, La Trobe University",
+      "position": "Post-doctoral researcher (Bioinformatics/infectious disease modelling)",
+      "url": "https://nematodegenetics.wordpress.com/",
+      "startDate": "2023-04-01",
+      "endDate": "2023-10-14",
+      "summary": "Formulating empirical and/or mechanistic transmission models utilising genomic, environmental and epidemiological data and supervise students working on related research.",
+      "highlights": ["landscape genetics", "spatial modelling"]
+    },
+    {
+      "name": "La Trobe University",
+      "position": "Casual academic",
+      "url": "",
+      "startDate": "2020-02-01",
+      "endDate": "2022-10-01",
+      "summary": "Demonstrating and tutoring masters and undergraduate students.",
+      "highlights": ["BIO5INF (Bioinformatics)", "BIO1MGC (Molecules, Genes and Cells)", "BIO1EEB (Ecology, Evolution and Biodiversity)"]
     }
+
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "organization": "Anka Analytica",
+      "location": "Melbourne, Australia",
+      "position": "Co-founder and Director",
+      "url": "https://www.facebook.com/ankaanalytica/",
+      "startDate": "2022-08-01",
+      "endDate": "2024-03-01",
+      "summary": "Started organisation to facilitate research activities between students and researchers in the field of bioinformatics and biotechnology in LMICs and HICs.",
+      "highlights": ["Organised Python workshops for Master's in Bioinformatics student at Pokhara University, Nepal", "Helped with development of projects with Internation Vaccine Institue (IVI), South Korea"]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Best poster prize",
+      "date": "2021-07-21",
+      "awarder": "Asia Pacific Consortium of Mathematics for Industry (APCMfI)",
+      "url": "",
+      "summary": "Awarded for the poster presentation on 'Parameterising vector movement in an onchocerciasis transmission model with population genetic data' which included a month-long research visit to the ICIAM conference in Tokyo and Kyushu University in Fukuoka, Japan."
     }
   ],
   "certificates": [
@@ -73,7 +114,7 @@
       "date": "2025-01-16",
       "issuer": "LinkedIn Learning",
       "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "icon": "fa-brands fa-github"
     },
     {
       "name": "JSON essentials",

@@ -35,13 +35,13 @@ toc:
   - name: Introduction
   - name: What are GitHub Actions?
   - name: Key Concepts
-  - name: Creating Your First Workflow
+  - name: "Creating Your First Workflow: A Step-by-Step Guide"
     subsections:
-      - name: Setting Up the Workflow File
-      - name: Defining the Job
-      - name: Setting Up the Environment
-      - name: Installing Dependencies
-  - name: Testing Strategy
+      - name: "Step 1: Setting Up the Workflow File"
+      - name: "Step 2: Defining the Job"
+      - name: "Step 3: Setting Up the Environment"
+      - name: "Step 4: Installing Dependencies"
+  - name: "Testing Strategy: The Two-Phase Approach"
   - name: Result Comparison and Reporting
   - name: Best Practices and Tips
   - name: Resources for Further Learning
@@ -208,7 +208,8 @@ This step creates a Conda environment using your `environment.yml` file, which s
 
 In our example, we use two-phase testing strategy, one with the current release and another with the new changes made in the repository.
 
-1. **Phase 1: Test Current Release**
+**Phase 1: Test Current Release** 
+
 ```yaml
   - name: Run hicap test (before update)
     shell: bash -el {0}
@@ -220,7 +221,8 @@ In our example, we use two-phase testing strategy, one with the current release 
 
 Sometimes we have to run `source $CONDA/bin/activate hicap-env` to activate the environment as it bypasses the need for conda initialisation in the shell session. The `shell` attribute is used to specify the shell to run the commands in. The `-e` flag causes the shell to exit immediately if any command exits with a non-zero status and `-l` flag ensures that the shell is a login shell. `{0}` is a placeholder for the scripts and commands to be run.
 
-2. **Phase 2: Test New Changes**  
+**Phase 2: Test New Changes**  
+
 ```yaml
   - name: Install editable hicap package
     shell: bash -el {0}

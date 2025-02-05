@@ -1,4 +1,7 @@
 {
+  "meta": {
+    "theme": "elegant"
+  },
   "basics": {
     "name": "Himal Shrestha",
     "label": "Bioinformatician",
@@ -31,7 +34,6 @@
       "studyType": "PhD in Bioinformatics",
       "startDate": "2019-08-26",
       "endDate": "2023-03-01",
-      "score": 10,
       "courses": ["Data Driven Mathematical Modelling", "Helminth Bioinformatics", "Hierarchical Modelling of Species Communities", "Deep Learning", "Dynamic processes spreading on Networks", "Random Fields: Mathematical theory and application in spatial statistics"]
     },
     {
@@ -42,7 +44,6 @@
       "studyType": "Master of Biotechnology and Bioinformatics",
       "startDate": "2017-07-26",
       "endDate": "2019-03-01",
-      "score": 10,
       "courses": ["Bioinformatics", "Proteomics and Genomics", "Scientific Communication Skills", "Biobusiness management", "Practical Biotechnology"]
     },
     {
@@ -53,7 +54,6 @@
       "studyType": "Bachelor of Science in Human Biology",
       "startDate": "2012-08-26",
       "endDate": "2016-05-01",
-      "score": 10,
       "courses": ["Human Anatomy", "Human Physiology", "Biochemistry", "Microbiology", "Immunology", "Molecular Biology"]
     }
   ],
@@ -63,7 +63,6 @@
       "position": "Bioinformatician",
       "url": "https://biomedicalsciences.unimelb.edu.au/departments/microbiology-Immunology/research/services/microbiological-diagnostic-unit-public-health-laboratory",
       "startDate": "2023-10-15",
-      "endDate": "",
       "summary": "Developing and maintaining bioinformatics pipelines for the analysis of genomic data from bacterial pathogens",
       "highlights": ["pipeline-validation and development", "microbial bioinformatics"]
     },
@@ -79,7 +78,6 @@
     {
       "name": "La Trobe University",
       "position": "Casual academic",
-      "url": "",
       "startDate": "2020-02-01",
       "endDate": "2022-10-01",
       "summary": "Demonstrating and tutoring masters and undergraduate students.",

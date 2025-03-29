@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-testing-changes-in-your-python-packages-with-github-actions-workflow",
+        },{id: "post-",
+      
+        title: "",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/2025-03-26-python-functions-vs-classes/";
+        
+      },
+    },{id: "post-testing-changes-in-your-python-packages-with-github-actions-workflow",
       
         title: "Testing changes in your Python Packages with GitHub Actions Workflow",
       

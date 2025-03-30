@@ -37,15 +37,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-",
+        },{id: "post-python-functions-vs-classes-for-building-powerful-python-cli-tools-with-bioinformatics-examples",
       
-        title: "",
+        title: "Python functions vs. classes for building powerful Python CLI tools with Bioinformatics examples...",
       
-      description: "",
+      description: "In this blog plost, I share my experience of learning Python functions and classes in the context of bioinformatics.",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2025/2025-03-26-python-functions-vs-classes/";
+          window.location.href = "/blog/2025/python-functions-vs-classes/";
         
       },
     },{id: "post-testing-changes-in-your-python-packages-with-github-actions-workflow",

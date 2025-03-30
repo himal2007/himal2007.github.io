@@ -32,7 +32,7 @@ authors:
 #   - we may want to automate TOC generation in the future using
 #     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
 toc:
-  - name: Python functions vs. classes for building powerful Python CLI tools with Bioinformatics examples
+  - name: Introduction
   - name: Functions vs. classes: a visual overview
   - name: Python functions: making your code reusable
   - name: Python classes: organising data and behavior

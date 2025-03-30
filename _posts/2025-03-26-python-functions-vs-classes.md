@@ -1,7 +1,7 @@
 ---
 layout: distill
 title: Python functions vs. classes for building powerful Python CLI tools with Bioinformatics examples
-description: In this blog post, I share my experience of learning Python functions and classes in the context of bioinformatics. 
+description: In this blog plost, I share my experience of learning Python functions and classes in the context of bioinformatics. 
 tags: python, bioinformatics, functions, classes, cli-tools
 categories: bioinformatics, python
 giscus_comments: true
@@ -32,18 +32,18 @@ authors:
 #   - we may want to automate TOC generation in the future using
 #     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
 toc:
-  - name: Introduction
-  - name: Functions vs. classes: a visual overview
-  - name: Python functions: making your code reusable
-  - name: Python classes: organising data and behavior
+  - name: Python functions vs. classes for building powerful Python CLI tools with Bioinformatics examples
+  - name: Functions vs. classes - a visual overview
+  - name: Python functions - making your code reusable
+  - name: Python classes - organising data and behavior
     subsections:
-      - name: Example: using a class for sequence records
+      - name: Example - using a class for sequence records
   - name: When to use functions vs. classes
     subsections:
       - name: Simplicity vs. Structure
-  - name: Building CLI tools: combining functions and classes
+  - name: Building CLI tools - combining functions and classes
     subsections:
-      - name: Example: FASTA file parser with a CLI
+      - name: Example - FASTA file parser with a CLI
       - name: How this code works
       - name: Running the CLI Tool on real data
       - name: Sample output

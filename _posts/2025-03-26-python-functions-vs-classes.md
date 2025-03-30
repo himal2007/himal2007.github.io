@@ -25,6 +25,12 @@ authors:
     affiliations:
       name: MDU-PHL, The University of Melbourne
 
+# Optionally, you can add a table of contents to your post.
+# NOTES:
+#   - make sure that TOC names match the actual section names
+#     for hyperlinks within the post to work correctly.
+#   - we may want to automate TOC generation in the future using
+#     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
 toc:
   - name: Python functions vs. classes for building powerful Python CLI tools with Bioinformatics examples
   - name: Functions vs. classes: a visual overview

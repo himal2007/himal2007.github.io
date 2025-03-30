@@ -37,7 +37,7 @@ social: true # includes social icons at the bottom of the page
 
 ---
 
-**🌱 Curious Mind:** When I'm not delving into the molecular mysteries of pathogens, you might find me lost in the pages of a book. Currently, I'm currently reading _Why I am a Hindu_ by Shashi Tharoor, a delightful escape that keeps me balanced and inspired.
-You can find the complete list of books I've read on [Goodreads](https://www.goodreads.com/himal2007).
+**🌱 Curious Mind:** When I'm not delving into the molecular mysteries of pathogens, you might find me lost in the pages of a book. Currently, I'm currently reading _Bioinformatics with Python Cookbook_ by Tiago Antao, to acquaint myself with the functionalities available in Python for bioinformatics.
+You can find the complete list of books I've read so far on [Goodreads](https://www.goodreads.com/himal2007).
 
 ---

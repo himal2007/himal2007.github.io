@@ -1,7 +1,7 @@
 ---
 layout: distill
 title: Python functions vs. classes for building powerful Python CLI tools with Bioinformatics examples
-description: In this blog plost, I share my experience of learning Python functions and classes in the context of bioinformatics. 
+description: In this blog post, I share my experience of learning Python functions and classes in the context of bioinformatics. 
 tags: python, bioinformatics, functions, classes, cli-tools
 categories: bioinformatics, python
 giscus_comments: true
@@ -25,12 +25,6 @@ authors:
     affiliations:
       name: MDU-PHL, The University of Melbourne
 
-# Optionally, you can add a table of contents to your post.
-# NOTES:
-#   - make sure that TOC names match the actual section names
-#     for hyperlinks within the post to work correctly.
-#   - we may want to automate TOC generation in the future using
-#     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
 toc:
   - name: Python functions vs. classes for building powerful Python CLI tools with Bioinformatics examples
   - name: Functions vs. classes: a visual overview
@@ -39,8 +33,8 @@ toc:
     subsections:
       - name: Example: using a class for sequence records
   - name: When to use functions vs. classes
-  - subsections:
-    - name: Simplicity vs. Structure
+    subsections:
+      - name: Simplicity vs. Structure
   - name: Building CLI tools: combining functions and classes
     subsections:
       - name: Example: FASTA file parser with a CLI
@@ -77,7 +71,7 @@ In the fast-moving field of bioinformatics, Python is a top choice for building 
 
 In this blog, we’ll break down the key differences between functions and classes, explore when to use each, and provide real-world bioinformatics examples. Along the way, I’ll share insights into how getting comfortable with Python classes can enhance your ability to build robust CLI tools.  
 
-### **Functions vs. classes: a visual overview**
+## **Functions vs. classes: a visual overview**
 
 To illustrate the fundamental difference between functions and classes, here’s a simple diagram:  
 
@@ -102,7 +96,7 @@ graph TD
 
 One of the core principles of programming is **DRY**—*"Don't Repeat Yourself."* I’ve relied on functions to make my code more reusable and efficient from the start.  Functions are **straightforward and simple**. They act as self-contained blocks of code designed to perform a specific task. Functions are particularly useful when you need to repeat an operation multiple times but don’t want to rewrite the same code.  They are perfect for operations that don’t require maintaining state between calls.
 
-#### **Hmm... What Does "Maintaining State Between Calls" Mean?🤔**  
+### **Hmm... What Does "Maintaining State Between Calls" Mean?🤔**  
 
 When we say functions don’t "maintain state between calls," it simply means that every time you call a function, it starts fresh—forgetting anything from previous runs. Functions take input, process it, and return an output without remembering any past data.  
 
@@ -283,7 +277,7 @@ If you are interested in diving deeper, there's a whole philosophy of **Object-O
 - **Others, like Haskell, follow a functional paradigm**, relying entirely on pure functions.  
 - **Python gives you the best of both worlds**, allowing you to choose the right tool for the job.  
 
-### **Finding the Right Balance**  
+## **Finding the Right Balance**  
 
 If you've been writing **large, monolithic functions**, consider **refactoring your code into classes** for better structure. However, **not everything needs to be a class**—sometimes, a well-designed function is the simplest and most effective approach.  
 
@@ -295,8 +289,6 @@ Understanding the differences between **functions and classes** in Python is ess
 
 For further exploration, check out these resources:  
 - [Object-Oriented Programming (OOP) in Python](https://realpython.com/python3-object-oriented-programming/)
-- 
-- [Python Functions – A Primer for Computational Biology](#)  
 - [Biopython Tutorial and Cookbook](https://biopython.org/docs/latest/Tutorial/chapter_introduction.html)  
 - [Things I’ve Learned About Building CLI Tools in Python – Simon Willison](https://simonwillison.net/2023/Sep/30/cli-tools-python/)  
 

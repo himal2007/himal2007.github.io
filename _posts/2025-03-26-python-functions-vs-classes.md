@@ -69,7 +69,7 @@ _styles: >
   }
 ---
 
-# **[DRAFT] Python functions vs. classes for building powerful Python CLI tools with Bioinformatics examples**  
+# Python functions vs. classes for building powerful Python CLI tools with Bioinformatics examples  
 
 Python has been my go-to language since I started working as a bioinformatician. However, I’ve realised that I haven’t used classes as much as I should have.  
 
@@ -77,7 +77,7 @@ In the fast-moving field of bioinformatics, Python is a top choice for building 
 
 In this blog, we’ll break down the key differences between functions and classes, explore when to use each, and provide real-world bioinformatics examples. Along the way, I’ll share insights into how getting comfortable with Python classes can enhance your ability to build robust CLI tools.  
 
-## **Functions vs. classes: a visual overview**
+## Functions vs. classes: a visual overview
 
 To illustrate the fundamental difference between functions and classes, here’s a simple diagram:  
 
@@ -98,11 +98,11 @@ graph TD
 
 ---
 
-## **Python functions: making your code reusable**  
+## Python functions: making your code reusable  
 
 One of the core principles of programming is **DRY**—*"Don't Repeat Yourself."* I’ve relied on functions to make my code more reusable and efficient from the start.  Functions are **straightforward and simple**. They act as self-contained blocks of code designed to perform a specific task. Functions are particularly useful when you need to repeat an operation multiple times but don’t want to rewrite the same code.  They are perfect for operations that don’t require maintaining state between calls.
 
-### **Hmm... What Does "Maintaining State Between Calls" Mean?🤔**  
+### Hmm... What Does "Maintaining State Between Calls" Mean?🤔  
 
 When we say functions don’t "maintain state between calls," it simply means that every time you call a function, it starts fresh—forgetting anything from previous runs. Functions take input, process it, and return an output without remembering any past data.  
 
@@ -124,14 +124,14 @@ Functions like this are great when you have **clear inputs and outputs** without
 
 ---
 
-## **Python classes: organising data and behavior**  
+## Python classes: organising data and behavior  
 
 While functions are great for simple, reusable operations, **classes** take things a step further. Classes act as blueprints for creating objects that bundle both **data** and **behavior** (methods). They are incredibly useful when you want to maintain **state** between calls or model complex entities. In bioinformatics, this is particularly relevant when you need to represent biological sequences, genes, or proteins.
 
 Imagine you're developing a **bioinformatics CLI tool** that processes various biological sequence records. Instead of passing raw data between functions, you can create a `SequenceRecord` class to encapsulate relevant properties (like the sequence ID and nucleotide string) alongside methods for operations such as **transcription** or **reverse complement calculation**.  Note it is a norm to name the class in a Pascal case, i.e. each word starts with a uppercase letter without spaces (e.g. `SequenceRecord` instead of `sequence_record`).
 
 
-### **Example: using a class for sequence records**  
+### Example: using a class for sequence records  
 
 ```python
 class SequenceRecord:
@@ -158,7 +158,7 @@ print("GC Content:", record.gc_content())
 print("Reverse Complement:", record.reverse_complement())
 ```
 
-### **Output:**
+### Output:**
 
 ```console
 <__main__.SequenceRecord object at 0x0000023EE513CF10>
@@ -174,9 +174,9 @@ _If you want an analogy, think of a class as a form that needs to be filled out.
 
 ---
 
-## **When to use functions vs. classes**  
+## When to use functions vs. classes  
 
-### **Simplicity vs. Structure**  
+### Simplicity vs. Structure  
 
 | Use Functions When... | Use Classes When... |
 |----------------------|----------------------|
@@ -189,11 +189,11 @@ In bioinformatics, functions work best for **small, focused tasks**, while class
 
 ---
 
-## **Building CLI tools: combining functions and classes**  
+## Building CLI tools: combining functions and classes  
 
 Modern **Python CLI tools** often mix both approaches. Libraries like **argparse** or **Click** help process command-line arguments while keeping the core logic clean and modular. Let’s look at an example:  
 
-### **Example: FASTA file parser with a CLI**  
+### Example: FASTA file parser with a CLI  
 
 ```python
 import argparse
@@ -238,13 +238,13 @@ if __name__ == "__main__":
     main()
 ```
 
-### **How this code works**  
+### How this code works  
 
 1. **`FastaRecord` Class:** Stores the sequence **ID** and **nucleotide string**, providing a method to compute **GC content**.  
 2. **`parse_fasta` Function:** Reads a **FASTA file**, extracts sequence data, and creates `FastaRecord` objects.  
 3. **`main` Function:** Uses **argparse** to accept a **file path** as input, then processes and prints GC content for each sequence in the file.  
 
-#### **Running the CLI Tool on real data**  
+#### Running the CLI Tool on real data  
 
 ```sh
 # copy the python code above into a file called fasta_gc.py
@@ -257,7 +257,7 @@ less Hi75.fasta
 python fasta_gc.py Hi75.fasta | head
 ```
 
-### **Sample output:**  
+### Sample output:  
 ```console
 NODE_1: GC Content = 37.41%
 NODE_2: GC Content = 37.34%
@@ -283,13 +283,13 @@ If you are interested in diving deeper, there's a whole philosophy of **Object-O
 - **Others, like Haskell, follow a functional paradigm**, relying entirely on pure functions.  
 - **Python gives you the best of both worlds**, allowing you to choose the right tool for the job.  
 
-## **Finding the Right Balance**  
+## Finding the Right Balance  
 
 If you've been writing **large, monolithic functions**, consider **refactoring your code into classes** for better structure. However, **not everything needs to be a class**—sometimes, a well-designed function is the simplest and most effective approach.  
 
 ---
 
-## **Final Thoughts**  
+## Final Thoughts  
 
 Understanding the differences between **functions and classes** in Python is essential for writing **clean, efficient, and scalable bioinformatics tools**. By thoughtfully combining both, you can build **powerful CLI tools** that streamline your workflow and handle **complex biological data** with ease.  
 

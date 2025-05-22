@@ -27,7 +27,7 @@ toc:
     subsections:
       - name: Syncing smarter, not harder
       - name: Using --monitor mode with caution
-      - name: The Great --resync Caveat
+      - name: The --resync caveat
   - name: Troubleshooting Common Issues
   - name: Final Thoughts
 
@@ -73,7 +73,7 @@ The first step is installing the tool. Depending on your Ubuntu version, you can
 
 For the latest features and better reliability, I recommend compiling from source following the instructions on the [GitHub page](https://github.com/abraunegg/onedrive/blob/master/docs/INSTALL.md).
 
-<details>
+<details markdown="1">
 <summary><strong>Before You Begin: Resolving libcurl and HTTPS Issues</strong></summary>
 
 Some Ubuntu systems may encounter issues with HTTPS due to outdated `libcurl` versions. To avoid this, it's recommended to install the latest `curl` from source:
@@ -180,7 +180,7 @@ Or, you can automate the sync process using `systemd` services.
 
 ### Automating Sync with `systemd`
 
-<details>
+<details markdown="1">
 <summary><strong>⚠️ A Word of Caution About Automating Sync</strong></summary>
 
 While it might be tempting to automate the sync process using systemd services, I’d urge you to think twice—especially if you’re working across multiple machines.
@@ -283,7 +283,7 @@ This is how my `sync_list` looks:
 /3_resources
 ```
 
-<details>
+<details markdown="1">
 <summary><strong>⚠️ Things to consider when using `sync_list`</strong></summary>
 
 The `sync_list` uses an **exclusion-first** approach. This means **only the items listed in `sync_list` will be synced**, and everything else is ignored.
@@ -313,7 +313,7 @@ onedrive --monitor --verbose --confdir="~/.config/onedrive-personal"
 
 > **Important:** Monitor mode sometimes misses changes—especially deletions or files created online. In one case, files I deleted in the cloud were re-uploaded from my local machine because the deletion wasn’t properly detected.
 
-## The `--resync` Caveat
+## The `--resync` caveat
 
 If syncing gets messy, you might consider running a full `--resync` or you will be prompted to do so. This is a powerful command that forces the client to re-evaluate everything in your OneDrive folder. 
 

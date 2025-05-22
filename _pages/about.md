@@ -24,7 +24,7 @@ social: true # includes social icons at the bottom of the page
 
 **🔎 I unmask microbial villains.** At the [MDU-PHL](https://biomedicalsciences.unimelb.edu.au/departments/microbiology-Immunology/research/services/microbiological-diagnostic-unit-public-health-laboratory), I develop and validate bioinformatics pipelines that decode the genomes of infectious agents, turning complex data into actionable insights. My work is like solving intricate puzzles, where each piece of data contributes to a clearer picture of disease dynamics and helps in the fight against infectious diseases.
 
-**🎓 My journey as a bioinformatician began at La Trobe University** under the guidance of [Prof Warwick Grant](https://scholars.latrobe.edu.au/wgrant), Dr. Shannon Hedtke, and Dr. Rebecca Chisholm. My PhD focused on the spatial modelling of river blindness, a neglected tropical disease, where I used computational tools to map out its transmission pathways and devise strategies to curb its spread.
+**🎓 My journey as a bioinformatician began at La Trobe University** under the guidance of [Prof Warwick Grant](https://scholars.latrobe.edu.au/wgrant), [Dr. Shannon Hedtke](https://scholars.latrobe.edu.au/shedtke), and Dr. Rebecca Chisholm. My PhD focused on the spatial modelling of river blindness, a neglected tropical disease, where I used computational tools to map out its transmission pathways and devise strategies to curb its spread.
 
 **🔬 My expertise lies at the intersection of science and technology,** integrating genomics, environmental data, and epidemiology to tackle complex health challenges. I’m particularly passionate about exploring how antimicrobial resistance and climate change influence disease patterns.
 
@@ -36,8 +36,8 @@ social: true # includes social icons at the bottom of the page
 - **Skills:** Bioinformatic analysis, Population genetics, Landscape genetics, Spatial modelling, Statistical analysis
 
 ---
+**🌱 Curious Mind:** When I'm not delving into the molecular mysteries of pathogens, you might find me lost in the pages of a book. Currently, I'm currently reading _The Man From the Future_ by Ananyo Bhatacharya, a biography of the brilliant mathematician John von Neumann. 
 
-**🌱 Curious Mind:** When I'm not delving into the molecular mysteries of pathogens, you might find me lost in the pages of a book. Currently, I'm currently reading _Bioinformatics with Python Cookbook_ by Tiago Antao, to acquaint myself with the functionalities available in Python for bioinformatics.
 You can find the complete list of books I've read so far on [Goodreads](https://www.goodreads.com/himal2007).
 
 ---

@@ -7,6 +7,8 @@ categories: linux, productivity
 giscus_comments: true
 date: 2025-05-21
 featured: true
+kramdown:
+  parse_block_html: true
 
 authors:
   - name: Himal Shrestha
@@ -28,6 +30,17 @@ toc:
       - name: The Great --resync Caveat
   - name: Troubleshooting Common Issues
   - name: Final Thoughts
+
+_style: >
+  d-article ol {
+    list-style-type: decimal !important;
+    margin-left: 2em !important;
+    }
+
+  d-article ol li {
+    display: list-item !important;
+    list-style-type: inherit !important;
+    }
 ---
 
 # OneDrive on Ubuntu: Syncing files with ease for multiple accounts
@@ -35,8 +48,6 @@ toc:
 I recently made the full switch to Ubuntu—no dual-boot, no fallback to Windows, just Ubuntu all the way. It has been a great journey so far, but it comes with its own set of challenges. I love the control and freedom Linux offers, but I quickly hit a snag when it came to integrating my day-to-day tools from work. One of the biggest hurdles? File management via OneDrive. At work, Office 365 is central to collaboration and documentation, and OneDrive is the glue that holds my file management together. Ubuntu, for all its power, doesn’t get much love from Microsoft, and I found myself missing that seamless file sync I once took for granted. That’s when I started hunting for solutions and stumbled upon a gem: [onedrive](https://github.com/abraunegg/onedrive) by [abraunegg](https://github.com/abraunegg).
 
 It's a robust and actively maintained command-line tool for syncing OneDrive with Linux. I've been using it for a few months now with both my work and personal accounts, and after a bit of trial and error, I've fine-tuned the experience for smooth, reliable syncing. Here's how you can do the same.
-
----
 
 ## TLDR: Setting Up OneDrive on Ubuntu
 
@@ -170,7 +181,7 @@ Or, you can automate the sync process using `systemd` services.
 ### Automating Sync with `systemd`
 
 <details>
-<summary>⚠️ A Word of Caution About Automating Sync</summary>
+<summary><strong>⚠️ A Word of Caution About Automating Sync</strong></summary>
 
 While it might be tempting to automate the sync process using systemd services, I’d urge you to think twice—especially if you’re working across multiple machines.
 
@@ -213,7 +224,8 @@ Restart=on-failure
 WantedBy=default.target
 EOF
 ```
-Replace `/usr/local/bin/onedrive` with the actual path to your `onedrive` binary if it's different.
+Replace `/usr/local/bin/onedrive` with the actual path to your `onedrive` binary if it's different. 
+
 2. **Reload the systemd user daemon**:
 
 ```bash
@@ -271,20 +283,20 @@ This is how my `sync_list` looks:
 /3_resources
 ```
 
-> ⚠️ Caution When Using `sync_list`
+<details>
+<summary><strong>⚠️ Things to consider when using `sync_list`</strong></summary>
 
-> The `sync_list` uses an **exclusion-first** approach. This means **only the items listed in `sync_list` will be synced**, and everything else is ignored.
+The `sync_list` uses an **exclusion-first** approach. This means **only the items listed in `sync_list` will be synced**, and everything else is ignored.
 
-> * Don't forget to include all folders you want to sync, or they won’t be downloaded/uploaded.
-> * Here's an interesting discussion on the [GitHub issues page](https://github.com/abraunegg/onedrive/discussions/2369) that helped me understand this better.
+* Don't forget to include all folders you want to sync, or they won’t be downloaded/uploaded.
+* Here's an interesting discussion on the [GitHub issues page](https://github.com/abraunegg/onedrive/discussions/2369) that helped me understand this better.
 
-> Always test your `sync_list` with a dry run first to avoid accidental data loss. So, you will have to resync with `--dry-run`:
+Always test your `sync_list` with a dry run first to avoid accidental data loss. So, you will have to resync with `--dry-run`:
 
 ```bash
-onedrive --confdir="~/.config/onedrive-personal" --sync --resync --dry-run
+onedrive --confdir="~/.config/onedrive-personal" --sync --dry-run
 ```
-
----
+</details>
 
 ## Using `--monitor` mode with caution
 
@@ -301,21 +313,17 @@ onedrive --monitor --verbose --confdir="~/.config/onedrive-personal"
 
 > **Important:** Monitor mode sometimes misses changes—especially deletions or files created online. In one case, files I deleted in the cloud were re-uploaded from my local machine because the deletion wasn’t properly detected.
 
----
+## The `--resync` Caveat
 
-## The Great `--resync` Caveat
-
-If syncing gets messy, you might consider running a full `--resync`. But beware:
+If syncing gets messy, you might consider running a full `--resync` or you will be prompted to do so. This is a powerful command that forces the client to re-evaluate everything in your OneDrive folder. 
 
 ```bash
 onedrive --resync --confdir="~/.config/onedrive-personal" --verbose
 ```
 
-This can result in **thousands** of `.safebackup` files being created if conflicts are detected. These backup files will be uploaded to the cloud, potentially doubling or tripling your storage usage.
+Be aware, this can result in **thousands** of `.safebackup` files being created if conflicts are detected. These backup files will be uploaded to the cloud, potentially doubling or tripling your storage usage.
 
 > **Tip:** Always back up your local OneDrive folder before using `--resync`. Watch the logs closely for what's happening.
-
----
 
 ## Troubleshooting Common Issues
 
@@ -329,8 +337,6 @@ This can result in **thousands** of `.safebackup` files being created if conflic
 * These are usually service-side throttling issues from Microsoft Graph API.
 * Wait and retry; avoid running continuous syncs from multiple machines.
 
----
-
 ## Final Thoughts
 
 Using OneDrive on Ubuntu isn’t as plug-and-play as on Windows, but with `onedrive` by abraunegg, it’s surprisingly powerful and customisable.
@@ -339,8 +345,6 @@ With careful configuration, a solid understanding of how the tool behaves, and s
 
 It’s not perfect, and yes, you do have to get your hands a little dirty in the terminal, but the payoff is worth it. It’s fast, secure, and gives you complete control over your sync process.
 
----
-
 Let me know in the comments if you have any tips or challenges of your own—we Linux users need to help each other out!
 
-Happy syncing!
+Happy syncing!⏳

@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-python-functions-vs-classes-for-building-powerful-python-cli-tools-with-bioinformatics-examples",
+        },{id: "post-onedrive-on-ubuntu-syncing-files-with-ease-for-multiple-accounts",
+      
+        title: "OneDrive on Ubuntu - Syncing files with ease for multiple accounts",
+      
+      description: "A comprehensive guide to setting up OneDrive synchronization on Ubuntu using abraunegg&#39;s onedrive tool, with special focus on managing multiple accounts.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/onedrive_ubuntu/";
+        
+      },
+    },{id: "post-python-functions-vs-classes-for-building-powerful-python-cli-tools-with-bioinformatics-examples",
       
         title: "Python functions vs. classes for building powerful Python CLI tools with Bioinformatics examples...",
       
